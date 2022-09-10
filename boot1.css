@@ -1,0 +1,146 @@
+.imageback {
+    background-image: linear-gradient(rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.4)), url('../../image/7345.jpg');
+    background-size: 100% 100%;
+    background-attachment: fixed;
+    height: 900px;
+    width: 100%;
+}
+
+.imgtext {
+    padding-top: 400px;
+    box-sizing: border-box;
+}
+
+.imgtext h1 {
+    font-size: 85px;
+    font-weight: bold;
+
+
+}
+
+.imgtext h2 {
+    font-size: 40px;
+}
+
+/*Services*/
+.port{
+    padding: 100px 0px 60px;
+    height: auto;
+}
+
+.rowdiv {
+    margin: 80px 0px;
+}
+
+.port h1 {
+    font-size: 50px;
+    font-weight: bold;
+}
+
+.imgsetting {
+    border-radius: 50%;
+    height: 100px;
+    width: 100px;
+
+}
+
+.fa-shopping-cart {
+    padding: 17px;
+
+}
+
+.fa-lock {
+    padding: 17px;
+
+}
+
+.fa-user {
+    padding: 17px;
+
+}
+
+.rowdiv p {
+    padding: 15px;
+    color: #6c757d;
+}
+
+.rowdiv h2 {
+    margin-top: 20px;
+    font-size: 30px;
+}
+
+/* cards */
+
+.Portfolio {
+    height: auto;
+    width: 100%;
+    padding: 100px 0px 50px;
+
+
+}
+
+.card {
+    margin-top: 40px;
+}
+
+.Portfolio h2 {
+    font-size: 50px;
+    font-weight: bold;
+}
+
+.imggallery {
+    height: auto;
+    padding: 100px 0px 60px;
+    width: 100%;
+}
+
+.imggallery h2 {
+    font-weight: bold;
+    font-size: 50px;
+}
+
+.imgset {
+    margin-top: 75px;
+
+}
+
+footer h6 {
+    line-height: 50px;
+}
+
+/*------------------MEDIA QUERY-----------------------*/
+@media(min-width:992px) {
+
+}
+
+@media(min-width:768px) and (max-width:991px) {
+
+}
+
+@media(min-width:575px) and (max-width:767px) {
+
+}
+
+@media(min-width:480px) and (max-width:574px) {
+
+}
+
+@media(max-width:479px) {
+    .imgtext h1 {
+        font-size:20px;
+        font-weight: bold;
+    
+    
+    }
+    
+    .imgtext h2 {
+        font-size:7px;
+    }
+    .rowdiv{
+        
+        height: 3000px;
+    }
+    
+    
+
+}
